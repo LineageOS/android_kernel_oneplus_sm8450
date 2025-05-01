@@ -11,6 +11,10 @@
 #include <linux/errno.h>
 #include <linux/types.h>
 
+#include <linux/regulator/driver.h>
+#include <linux/regulator/machine.h>
+#include <linux/regulator/of_regulator.h>
+
 /**
  * enum pon_trigger_source: List of PON trigger sources
  * %PON_SMPL:		PON triggered by Sudden Momentary Power Loss (SMPL)
